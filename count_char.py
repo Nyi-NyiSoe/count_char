@@ -13,6 +13,8 @@ def button(root,side,text,command=None):
 def count(char):
     arr={}
     for i in char:
+        if i ==" ":
+            continue
         if i in arr:
             arr[i] += 1
         else:
@@ -26,7 +28,7 @@ class count_char(Frame):
     def __init__(self,master):
         Frame.__init__(self,master)
         master.geometry("1000x400")
-        self.master.title("Count character occurences")
+        self.master.title("Count character occurnces")
         self.pack(expand=YES,fill=BOTH)
 
         display = StringVar()
