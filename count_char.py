@@ -21,9 +21,6 @@ def count(char):
             arr[i] = 1
     return arr
     
-
-
-
 class count_char(Frame):
     def __init__(self,master):
         Frame.__init__(self,master)
