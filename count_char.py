@@ -26,7 +26,7 @@ class count_char(Frame):
     def __init__(self,master):
         Frame.__init__(self,master)
         master.geometry("1000x400")
-        self.master.title("Count character")
+        self.master.title("Count character occurences")
         self.pack(expand=YES,fill=BOTH)
 
         display = StringVar()
