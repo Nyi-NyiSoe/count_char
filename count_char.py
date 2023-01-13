@@ -6,7 +6,7 @@ def frame(root,side):
     w.pack(side=side,expand=YES,fill=BOTH)
 
 def button(root,side,text,command=None):
-    w = Button(root,width=10,text=text,command=command)
+    w = Button(root,width=10,height=3,text=text,command=command)
     w.pack(side=side,expand=YES,fill=BOTH)
     return w
 
